@@ -1,13 +1,23 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class GetBuilder<T> extends StatefulWidget {
   final T init;
-  final Widget Function(T) builder;
+  final Scaffold Function(T) builder;
 
   GetBuilder({
     required this.init,
     required this.builder,
   }) {}
+
+  getBuilder() {
+    // return Scaffold(
+    //   appBar: AppBar(
+    //     title: Text("${widget.init.runtimeType}"),
+    //   ),
+    // );
+    return this.builder(init);
+  }
 
   @override
   State<GetBuilder> createState() => GetBuilderState();
@@ -27,14 +37,12 @@ class GetBuilderState extends State<GetBuilder> {
     super.dispose();
   }
 
-  getBuilder() {
-    return widget.builder(widget.init);
-  }
-
   @override
   Widget build(BuildContext context) {
     (widget.init).state = this;
-    return getBuilder();
+    return Material(
+      child: widget.getBuilder(),
+    );
     // var c = LoginController();
     // return MultiProvider(
     //   providers: [
