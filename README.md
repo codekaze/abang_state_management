@@ -1,8 +1,22 @@
 # abang_state_management
 
-Project ini hanya untuk edukasi saja
-Adapun untuk mode produksi, saya tidak menjamin kestabilannya.
-But, secara mendasar state management ini hanya menggunakan setState bawaan dari Flutter.
+Project ini hanya untuk edukasi dan riset saja<br/>
+Adapun untuk mode produksi, saya tidak menjamin kestabilannya.<br/>
+Tapi, secara mendasar state management ini hanya menggunakan setState bawaan dari Flutter.
+
+Untuk navigasi juga tidak ada library tambahan,
+Navigasi yang digunakan sudah contextless.
+
+<hr/>
+<b>Key:</b>
+<hr/>
+GetWidget<br>
+GetxController<br>
+Get.to<br>
+Get.offAll<br>
+Get.back<br>
+
+<hr/>
 
 <b>Notes:</b>
 - Membungkus dengan GetBuilder itu berarti menggunakan StatefulWidget di belakang
