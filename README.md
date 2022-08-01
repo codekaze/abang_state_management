@@ -47,6 +47,9 @@ Get.back<br><br>
 <br><br>
 <hr/>
 
+## Contoh Project
+https://github.com/codekaze/contoh_getx_baik<br>
+
 ## Getting Started
 ```
 main.dart
