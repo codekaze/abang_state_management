@@ -7,11 +7,15 @@ Untuk navigasi juga tidak ada library tambahan,
 Navigasi yang digunakan sudah contextless.
 
 ### Key
+Get.width<br>
+Get.height<br>
 GetWidget<br>
 GetxController<br>
 Get.to<br>
 Get.offAll<br>
 Get.back<br><br/>
+
+
 
 ## Catatan
 - Membungkus dengan GetBuilder itu berarti menggunakan StatefulWidget di belakang
