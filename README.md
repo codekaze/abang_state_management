@@ -1,7 +1,7 @@
 ## Getx Baik
-[ Terinspirasi dari Getx ]<br/>
-Project ini hanya untuk edukasi dan riset saja<br/>
-Adapun untuk mode produksi, saya tidak menjamin kestabilannya.<br/>
+[ Terinspirasi dari Getx ]<br>
+Project ini hanya untuk edukasi dan riset saja<br>
+Adapun untuk mode produksi, saya tidak menjamin kestabilannya.<br>
 Tapi, secara mendasar state management ini hanya menggunakan setState bawaan dari Flutter.
 
 Untuk navigasi juga tidak ada library tambahan,
@@ -9,18 +9,18 @@ Navigasi yang digunakan sudah contextless.
 
 <hr/>
 
-Getx cukup populer saat ini,<br/>
-Namun karena terlalu banyak fitur yang disediakan,<br/>
-Ada developer yang memilih untuk menggunakan state management lain yang lebih sederhana.<br/>
+Getx cukup populer saat ini,<br>
+Namun karena terlalu banyak fitur yang disediakan,<br>
+Ada developer yang memilih untuk menggunakan state management lain yang lebih sederhana.<br>
 
-Dan juga ada hal lain, yang sedikit membuat ricuh di dunia per-foruman<br/>
-Tapi, menurut opini saya pribadi itu tidak masalah karena sering terjadi di project open source<br/>
-Dan terlepas dari siapa yang salah atau siapa yang benar,<br/>
-Saya sangat mengakui kalau tujuan dari pembuatan Getx itu sudah tercapai,<br/>
-Yaitu untuk memudahkan developer XD.<br/><br/>
+Dan juga ada hal lain, yang sedikit membuat ricuh di dunia per-foruman<br>
+Tapi, menurut opini saya pribadi itu tidak masalah karena sering terjadi di project open source<br>
+Dan terlepas dari siapa yang salah atau siapa yang benar,<br>
+Saya sangat mengakui kalau tujuan dari pembuatan Getx itu sudah tercapai,<br>
+Yaitu untuk memudahkan developer XD.<br><br>
 
-Apalagi untuk programmer yang cukup malas seperti saya XD XD <br/>
-So, inilah Getx Baik, project yang terinspirasi dari Getx.<br/>
+Apalagi untuk programmer yang cukup malas seperti saya XD XD <br>
+So, inilah Getx Baik, project yang terinspirasi dari Getx.<br>
 Contextless dan mudah digunakan!
 
 <hr/>
@@ -32,7 +32,7 @@ GetWidget<br>
 GetxController<br>
 Get.to<br>
 Get.offAll<br>
-Get.back<br><br/>
+Get.back<br><br>
 
 
 
@@ -41,9 +41,9 @@ Get.back<br><br/>
 
 
 ## Belum tersedia
-- .obs<br/>
-- ...<br/>
-- ...<br/>
+- .obs<br>
+- ...<br>
+- ...<br>
 <br><br>
 <hr/>
 
