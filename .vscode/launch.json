@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "abang_state_management",
+            "name": "getx_baik",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "abang_state_management (profile mode)",
+            "name": "getx_baik (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "abang_state_management (release mode)",
+            "name": "getx_baik (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

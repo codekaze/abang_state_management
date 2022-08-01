@@ -1,4 +1,4 @@
-import 'package:abang_state_management/shared/get/get.dart';
+import 'package:getx_baik/shared/get/get.dart';
 import 'package:flutter/material.dart';
 import 'shared/get/get_material_app.dart';
 

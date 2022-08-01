@@ -1,4 +1,4 @@
-# abang_state_management
+# getx_baik
 
 Project ini hanya untuk edukasi dan riset saja<br/>
 Adapun untuk mode produksi, saya tidak menjamin kestabilannya.<br/>
@@ -27,10 +27,10 @@ main.dart
 ```
 
 ```
-import 'package:abang_state_management/shared/get/get.dart';
-import 'package:abang_state_management/shared/get/get_builder.dart';
-import 'package:abang_state_management/shared/get/get_material_app.dart';
-import 'package:abang_state_management/shared/get/getx_controller.dart';
+import 'package:getx_baik/shared/get/get.dart';
+import 'package:getx_baik/shared/get/get_builder.dart';
+import 'package:getx_baik/shared/get/get_material_app.dart';
+import 'package:getx_baik/shared/get/getx_controller.dart';
 import 'package:flutter/material.dart';
 
 void main() {
