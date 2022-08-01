@@ -1,4 +1,5 @@
 ## Getx Baik
+[ Terinspirasi dari Getx ]<br/>
 Project ini hanya untuk edukasi dan riset saja<br/>
 Adapun untuk mode produksi, saya tidak menjamin kestabilannya.<br/>
 Tapi, secara mendasar state management ini hanya menggunakan setState bawaan dari Flutter.
