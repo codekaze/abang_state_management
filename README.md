@@ -7,6 +7,24 @@ Tapi, secara mendasar state management ini hanya menggunakan setState bawaan dar
 Untuk navigasi juga tidak ada library tambahan,
 Navigasi yang digunakan sudah contextless.
 
+<hr/>
+
+Getx cukup populer saat ini,<br/>
+Namun karena terlalu banyak fitur yang disediakan,<br/>
+Ada developer yang memilih untuk menggunakan state management lain yang lebih sederhana.<br/>
+
+Dan juga ada hal lain, yang sedikit membuat ricuh di dunia per-foruman<br/>
+Tapi, menurut opini saya pribadi itu tidak masalah karena sering terjadi di project open source<br/>
+Dan terlepas dari siapa yang salah atau siapa yang benar,<br/>
+Saya sangat mengakui kalau tujuan dari pembuatan Getx itu sudah tercapai,<br/>
+Yaitu untuk memudahkan developer XD.<br/><br/>
+
+Apalagi untuk programmer yang cukup malas seperti saya XD XD <br/>
+So, inilah Getx Baik, project yang terinspirasi dari Getx.<br/>
+Contextless dan mudah digunakan!
+
+<hr/>
+
 ### Key
 Get.width<br>
 Get.height<br>
