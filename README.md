@@ -1,5 +1,4 @@
-# getx_baik
-
+## Getx Baik
 Project ini hanya untuk edukasi dan riset saja<br/>
 Adapun untuk mode produksi, saya tidak menjamin kestabilannya.<br/>
 Tapi, secara mendasar state management ini hanya menggunakan setState bawaan dari Flutter.
@@ -7,19 +6,23 @@ Tapi, secara mendasar state management ini hanya menggunakan setState bawaan dar
 Untuk navigasi juga tidak ada library tambahan,
 Navigasi yang digunakan sudah contextless.
 
-<hr/>
-<b>Key:</b>
-<hr/>
+### Key
 GetWidget<br>
 GetxController<br>
 Get.to<br>
 Get.offAll<br>
-Get.back<br>
+Get.back<br><br/>
 
-<hr/>
-
-<b>Notes:</b>
+## Catatan
 - Membungkus dengan GetBuilder itu berarti menggunakan StatefulWidget di belakang
+
+
+## Belum tersedia
+- .obs<br/>
+- ...<br/>
+- ...<br/>
+<br><br>
+<hr/>
 
 ## Getting Started
 ```
