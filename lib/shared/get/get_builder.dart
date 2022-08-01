@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class GetBuilder<T> extends StatefulWidget {
   final T init;
