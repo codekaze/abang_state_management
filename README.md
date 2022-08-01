@@ -4,15 +4,85 @@ Project ini hanya untuk edukasi saja
 Adapun untuk mode produksi, saya tidak menjamin kestabilannya.
 But, secara mendasar state management ini hanya menggunakan setState bawaan dari Flutter.
 
+<b>Notes:</b>
+- Membungkus dengan GetBuilder itu berarti menggunakan StatefulWidget di belakang
+
 ## Getting Started
+```
+main.dart
+```
 
-This project is a starting point for a Flutter application.
+```
+import 'package:abang_state_management/shared/get/get.dart';
+import 'package:abang_state_management/shared/get/get_builder.dart';
+import 'package:abang_state_management/shared/get/get_material_app.dart';
+import 'package:abang_state_management/shared/get/getx_controller.dart';
+import 'package:flutter/material.dart';
 
-A few resources to get you started if this is your first Flutter project:
+void main() {
+  runApp(GetMaterialApp(
+    title: 'Flutter Demo',
+    navigatorKey: Get.navigatorKey,
+    theme: ThemeData(
+      primarySwatch: Colors.blue,
+    ),
+    home: HomeView(),
+  ));
+}
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+class HomeController extends GetxController {
+  bool loading = false;
+}
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+class HomeView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return GetBuilder<HomeController>(
+      init: HomeController(),
+      builder: (controller) {
+        return Scaffold(
+          appBar: AppBar(
+            title: Text("Home View"),
+          ),
+          body: Container(
+            width: Get.width,
+            padding: EdgeInsets.all(20.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                if (controller.loading == true)
+                  Center(
+                    child: CircularProgressIndicator(),
+                  ),
+                if (controller.loading == false)
+                  InkWell(
+                    onTap: () async {
+                      controller.loading = true;
+                      controller.update();
+
+                      await Future.delayed(Duration(seconds: 1));
+
+                      controller.loading = false;
+                      controller.update();
+                    },
+                    child: Card(
+                      color: Colors.orange[400],
+                      child: Container(
+                        padding: EdgeInsets.all(20.0),
+                        child: Text("Test Loading"),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
+
+
+```
