@@ -2,7 +2,7 @@ import 'package:flutter/src/widgets/framework.dart';
 
 class GetBuilder<T> extends StatefulWidget {
   final T init;
-  final Widget Function(dynamic) builder;
+  final Widget Function(T) builder;
 
   GetBuilder({
     required this.init,
@@ -27,10 +27,14 @@ class GetBuilderState extends State<GetBuilder> {
     super.dispose();
   }
 
+  getBuilder() {
+    return widget.builder(widget.init);
+  }
+
   @override
   Widget build(BuildContext context) {
     (widget.init).state = this;
-    return widget.builder(widget.init);
+    return getBuilder();
     // var c = LoginController();
     // return MultiProvider(
     //   providers: [
